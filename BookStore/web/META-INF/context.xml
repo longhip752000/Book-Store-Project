@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/BookStore">
+    <Resource
+        auth="Container" 
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+        name="BookStore" 
+        type="javax.sql.DataSource" 
+        url="jdbc:sqlserver://localhost:1433;databaseName=BookStore;instanceName=SQLEXPRESS" 
+        username="sa" 
+        password="123456"
+    />
+</Context>
